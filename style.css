@@ -13,7 +13,7 @@ body {
 /* navbar start */
 
 .deskripsi {
-    
+
     display: flex;
     flex-direction: column;
     background-color: #FFF2E1;
@@ -23,7 +23,7 @@ body {
 }
 
 .deskripsi .navbar {
-    
+
     display: flex;
     margin: 20px 40px 0px 40px;
 }
@@ -685,18 +685,182 @@ body {
 
 /* responsive start */
 
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    
-
-}
-
 /* Small devices (portrait tablets and large phones, 600px and up) */
-    @media only screen and (max-width: 450px) {
-        
+@media only screen and (max-width: 450px) {
+
+   
+
+    /* p , h1, h2, h3{
+        font-size: 10px;
+    } */
+    /* navbar start */
+    div.deskripsi{
+        width: 100%;
+    }
+    .deskripsi .navbar{
+        width: 90%;
+        font-size: 10px;
+    }
+    .deskripsi .navbar img{
+        width: 80px;
+        height: 40px;
+    }
+
+    .deskripsi-1{
+        width: 50%;
+    }
+    .deskripsi-1-1{
+        width: 50%;
+        font-size: 8px;
+    }
+    .deskripsi-1-1 p, .deskripsi-1-1 h1{
+        font-size: 10px;
+    }
+    .deskripsi-1-1 img{
+        width: 150px;
+        height: 75px;
+    }
+    .deskripsi-1-2{
+        width: 50%;
+    }
+
+    .deskripsi .deskripsi-1 .deskripsi-1-2 img{
+        width: 45%;
+        height: 100%;
+    }
+
+    /* navbar end */
+
+    .company{
+    
+        display: flex;
+        flex-direction: column;
+    }
+
+    .company .sosmed-1{
+       
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+
+    /* .All-In-One{
+        width: 100px;
+    } */
+
+    .company .sosmed-1 img{
+        width: 20px;
+        height: 10px;
+    }
+
+
+    .cardView-1{
+        margin-top: 150px;
+    }
+
+    .what-is-skilline{
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* width: 200px; */
+        padding-left: 30px;
+        margin-top: 120px;
+    }
+    .what-is-skilline h2, .what-is-skilline p{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cardView-2{
+        display: flex;
+        flex-direction: column;
+        margin-top: -100px;
+    }
+    .cardView-2 .cardView{
+        margin-top: 100px;
+    }
+
+    .feature{
+        margin-top: 30px;
+        font-size: 12px;
+        display: flex;
+        width: 100%;
+    }
+
+    .feature p{
+        width: 300px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .feature1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .feature1 img{
+        width: 80%;
+    }
+
+    .feature1 .features {
+        width: 80%;
+    }
+
+    .integration{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .integration .images img{
+        width: 300px;
+        height: 350px;
 
     }
+
+    .feature2{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .feature3{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .news{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .news-1{
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        
+    }
+
+    .news-2{
+        margin-top: 30px;
+        margin-left: 0px;
+        /* width: 100%; */
+    }
+
+
+
+
+
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
@@ -708,62 +872,63 @@ body {
         width: 30%;
     }
 
-     /* navbar end */
+    /* navbar end */
 
     /* deskripsi start */
 
-    .deskripsi{
+    .deskripsi {
         display: flex;
         width: 100%;
         height: 500px;
         justify-content: space-around;
     }
 
-    .deskripsi-1 .deskripsi-1-1{
+    .deskripsi-1 .deskripsi-1-1 {
         /* width: 30%; */
         width: 30px;
         height: 100%;
     }
 
-    .deskripsi-1 .deskripsi-1-1{
+    .deskripsi-1 .deskripsi-1-1 {
         /* width: 30%; */
         font-size: 14px;
     }
 
-    .deskripsi-1 .deskripsi-1-1 h1{
+    .deskripsi-1 .deskripsi-1-1 h1 {
         /* width: 30%; */
         font-size: 20px;
         width: 100%;
     }
 
-    .deskripsi-1 .deskripsi-1-1 p{
+    .deskripsi-1 .deskripsi-1-1 p {
         width: 95%;
-        
+
     }
 
-    .deskripsi-1 .deskripsi-1-1 .button{
+    .deskripsi-1 .deskripsi-1-1 .button {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
     }
 
-    .deskripsi-1 .deskripsi-1-1 .button button{
+    .deskripsi-1 .deskripsi-1-1 .button button {
         height: 100px;
     }
 
     .deskripsi-1 .deskripsi-1-2 {
         width: 50%;
         height: 100%;
-    }   
+    }
 
     .deskripsi-1 .deskripsi-1-2 img {
         margin-right: 30px;
         width: 60%;
         height: 410px;
-    }   
+    }
+
     /* deskripsi end */
 
-    .All-In-One{
+    .All-In-One {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -772,13 +937,13 @@ body {
 
     /* integration start */
 
-    .integration{
+    .integration {
         display: flex;
         width: 100%;
         /* margin: 0px 20px; */
     }
 
-    .integ-teks{
+    .integ-teks {
         margin: 25px;
     }
 
@@ -795,22 +960,22 @@ body {
         width: 30%;
     }
 
-     /* navbar end */
+    /* navbar end */
 
     /* deskripsi start */
-    .deskripsi-1{
+    .deskripsi-1 {
         width: 100%;
         height: 520px;
         display: flex;
         justify-content: space-around;
     }
 
-    .deskripsi .deskripsi-1-1{
+    .deskripsi .deskripsi-1-1 {
         width: 30%;
         /* margin-left: 100px; */
     }
-    
-    .deskripsi .deskripsi-1-2{
+
+    .deskripsi .deskripsi-1-2 {
         width: 70%;
     }
 
@@ -823,7 +988,7 @@ body {
 
     /* deskripsi end */
 
-    .All-In-One{
+    .All-In-One {
         display: flex;
         justify-content: center;
         align-items: center;
